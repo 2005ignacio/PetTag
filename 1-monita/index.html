@@ -353,10 +353,10 @@ const mascota = {
   foto: "1-monita.jpeg",
 
   // CAMBIAR AQUÍ LA DESCRIPCIÓN DE LA MASCOTA
-  descripcion: "La Monita es una perra muy amigable y tranquilo. Tiene pelaje marrón y blanco y lleva un collar rosado.",
+  descripcion: "Monita es una perra muy energetica y saltarina. Tiene pelaje marrón clarito y lleva un collar rosado.",
 
   // CAMBIAR AQUÍ LA INFORMACIÓN IMPORTANTE O ADVERTENCIAS
-  informacionImportante: "Puede estar asustado. Acercarse despacio y con calma.",
+  informacionImportante: "Puede estar asustada. Acercarse despacio y con calma.",
 
   // ------------------------------------------------------------
   // CUADRO FINAL "¿Querés esto para tu mascota?"
@@ -405,7 +405,7 @@ document.getElementById("btn-llamar").href = "tel:+" + mascota.telefono;
 
 // Botón de WhatsApp con mensaje predefinido
 const mensajeWhatsapp = encodeURIComponent(
-  "Hola, encontré a " + mascota.nombre + ". Vi sus datos en la chapita."
+  "Hola, encontré a " + mascota.nombre + "."
 );
 document.getElementById("btn-whatsapp").href =
   "https://wa.me/" + mascota.whatsapp + "?text=" + mensajeWhatsapp;
